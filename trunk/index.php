@@ -4,14 +4,34 @@ $link = mysql_connect($db_host, $db_user, $db_pass);
 mysql_select_db($db_name);
 mysql_query("SET NAMES utf8"); //connect in decode utf8
 //define("DEBUG",TRUE);
-echo "<html><head><title>File sharing</title></head><body>";
-
+?>
+<html><head><title>File sharing</title>
+<script type='text/javascript' src='jquery-min.js'></script>
+<script type='text/javascript'>
+var t=20;
+function dem(){
+	if (t>0) {
+		t--;
+		$('#chodoi').html("Waiting for "+t+" second(s)");
+		setTimeout(dem,1000);
+	} else {
+		$('#chodoi').hide();
+		$('#taive').html('<a href="'+url+'">Download</a>');
+	}
+}
+$(document).ready(function(){
+	dem();
+});
+</script>
+</head><body>
+<?php
 if (isset($_GET['f'])) {
 	$sql="select * from danhmuc where ma='".$_GET['f']."' limit 1";
 	$ret=mysql_query($sql) or die("Error in query");
 	if ($row=mysql_fetch_array($ret)) {
 		ghinhatki($row['id']);
-		echo "<a href='".$row['tep']."'>Download</a>";
+		echo "<script type='text/javascript'>var url='".$row['tep']."'</script>";
+		echo "<div id='chodoi'></div><div id='taive'>Download</div>";
 	} else {
 		echo "File not found.";
 	}
