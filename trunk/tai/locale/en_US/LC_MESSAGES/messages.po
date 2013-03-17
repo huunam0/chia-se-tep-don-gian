@@ -1,0 +1,428 @@
+# Russian language file for Php Open FileShare v 0.1\n"
+# Copyright (C) 2008-2009 "Vasiliy Altunin"
+# This file is distributed under the same license as the Php Open FileSharee.
+# Vasiliy Altunin <skyr_at_users_dot_sourceforge_dot_net>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Php Open FileShare v 0.1\n"
+"Report-Msgid-Bugs-To: Vasiliy Altunin <skyr_at_users_dot_sourceforge_dot_net>\n"
+"POT-Creation-Date: 2009-03-31 0:0+1200\n"
+"PO-Revision-Date: 2009-03-31 0:0+12\n"
+"Last-Translator: Vasiliy Altunin <skyr_at_users_dot_sourceforge_dot_net>\n"
+"Language-Team: Russian <skyr_at_users_dot_sourceforge_dot_net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lines.po:2 lines.po:20 lines.po:29
+msgid "Logout"
+msgstr ""
+
+#: lines.po:5 lines.po:14 lines.po:23 lines.po:50 lines.po:383
+msgid "Admin"
+msgstr ""
+
+#: lines.po:8
+msgid "abanip"
+msgstr ""
+
+#: lines.po:11
+msgid "areason"
+msgstr ""
+
+#: lines.po:17
+msgid "unban"
+msgstr ""
+
+#: lines.po:26 lines.po:53
+msgid "ban"
+msgstr ""
+
+#: lines.po:32
+msgid "Bans"
+msgstr ""
+
+#: lines.po:35
+msgid "afilename"
+msgstr ""
+
+#: lines.po:38
+msgid "Filesize"
+msgstr ""
+
+#: lines.po:41
+msgid "afileip"
+msgstr ""
+
+#: lines.po:44
+msgid "adowncount"
+msgstr ""
+
+#: lines.po:47
+msgid "alastdown"
+msgstr ""
+
+#: lines.po:56
+msgid "adelfile"
+msgstr ""
+
+#: lines.po:59
+msgid "Welcome to setup"
+msgstr ""
+
+#: lines.po:62
+msgid "This installer help you setup PHP Open FileShare!"
+msgstr ""
+
+#: lines.po:65 lines.po:122 lines.po:155 lines.po:248
+msgid "Introduction"
+msgstr ""
+
+#: lines.po:68 lines.po:125 lines.po:158 lines.po:251
+msgid "Permissions"
+msgstr ""
+
+#: lines.po:71 lines.po:128 lines.po:161 lines.po:254
+msgid "DB Setup"
+msgstr ""
+
+#: lines.po:74 lines.po:131 lines.po:164 lines.po:257
+msgid "Configuration"
+msgstr ""
+
+#: lines.po:77 lines.po:134 lines.po:167 lines.po:260
+msgid "Installation"
+msgstr ""
+
+#: lines.po:80 lines.po:137 lines.po:170 lines.po:263
+msgid "6 - Finish"
+msgstr ""
+
+#: lines.po:83
+msgid "PHP Open FileShare present to you service like rapidshare, megaupload and etc."
+msgstr ""
+
+#: lines.po:86
+msgid "Requarements"
+msgstr ""
+
+#: lines.po:89
+msgid "Apache >= 2.2.0 server with php and mysql"
+msgstr ""
+
+#: lines.po:92
+msgid "PHP >= 5.2.0 with mysql"
+msgstr ""
+
+#: lines.po:95
+msgid "MYSQL >= 5.0.0"
+msgstr ""
+
+#: lines.po:98
+msgid "You hosting must allow to write files to disk by scripts"
+msgstr ""
+
+#: lines.po:101
+msgid "You must set permission to folders"
+msgstr ""
+
+#: lines.po:104 lines.po:110
+msgid "NOTE:"
+msgstr ""
+
+#: lines.po:107 lines.po:113
+msgid "folder must be outside document folder of you web server"
+msgstr ""
+
+#: lines.po:116 lines.po:143 lines.po:206 lines.po:242 lines.po:287
+msgid "Next"
+msgstr ""
+
+#: lines.po:119
+msgid "Setup file permissions"
+msgstr ""
+
+#: lines.po:140
+msgid "Checking permissions"
+msgstr ""
+
+#: lines.po:146
+msgid "Reload"
+msgstr ""
+
+#: lines.po:149
+msgid "Check permissions and click reload to continue"
+msgstr ""
+
+#: lines.po:152
+msgid "Configuration setup"
+msgstr ""
+
+#: lines.po:173
+msgid "Site Name"
+msgstr ""
+
+#: lines.po:176
+msgid "Site URL (full path without 'http://' or ending '/')"
+msgstr ""
+
+#: lines.po:179
+msgid "Admin password"
+msgstr ""
+
+#: lines.po:182
+msgid "Time limit between file upload (in minutes)"
+msgstr ""
+
+#: lines.po:185
+msgid "Time limit between file download (in minutes)"
+msgstr ""
+
+#: lines.po:188
+msgid "File auto deleted after (days)"
+msgstr ""
+
+#: lines.po:191
+msgid "Allowed file types"
+msgstr ""
+
+#: lines.po:194
+msgid "Language (ru_RU, en_US and etc)"
+msgstr ""
+
+#: lines.po:197
+msgid "Use mod_rewrite (true - yes, false - No)"
+msgstr ""
+
+#: lines.po:200
+msgid "Save"
+msgstr ""
+
+#: lines.po:203
+msgid "Configuration created"
+msgstr ""
+
+#: lines.po:209
+msgid "Finish"
+msgstr ""
+
+#: lines.po:212
+msgid "All done"
+msgstr ""
+
+#: lines.po:215
+msgid "Now you can go to"
+msgstr ""
+
+#: lines.po:218
+msgid "you site"
+msgstr ""
+
+#: lines.po:221
+msgid "and begin upload files or you may go to"
+msgstr ""
+
+#: lines.po:224
+msgid "admin panel"
+msgstr ""
+
+#: lines.po:227
+msgid "If you find any bugs or have problems with installation and use PHP Open FileShare"
+msgstr ""
+
+#: lines.po:230
+msgid "visit"
+msgstr ""
+
+#: lines.po:233
+msgid "for more info"
+msgstr ""
+
+#: lines.po:236
+msgid "Installing database"
+msgstr ""
+
+#: lines.po:239 lines.po:284
+msgid "All seems ok"
+msgstr ""
+
+#: lines.po:245
+msgid "MySQL database setup"
+msgstr ""
+
+#: lines.po:266
+msgid "1. Configure you mysql database"
+msgstr ""
+
+#: lines.po:269
+msgid "Host name"
+msgstr ""
+
+#: lines.po:272
+msgid "DB name"
+msgstr ""
+
+#: lines.po:275
+msgid "User name"
+msgstr ""
+
+#: lines.po:278
+msgid "User password"
+msgstr ""
+
+#: lines.po:281
+msgid "Table prefix"
+msgstr ""
+
+#: lines.po:290 lines.po:311 lines.po:326 lines.po:356 lines.po:416 lines.po:434 lines.po:455 lines.po:473
+msgid "File"
+msgstr ""
+
+#: lines.po:293 lines.po:314 lines.po:329 lines.po:359 lines.po:419 lines.po:437 lines.po:458 lines.po:476
+msgid "Size"
+msgstr ""
+
+#: lines.po:296 lines.po:317 lines.po:362
+msgid "Link to download file"
+msgstr ""
+
+#: lines.po:299 lines.po:320 lines.po:365
+msgid "Link to delete file"
+msgstr ""
+
+#: lines.po:302 lines.po:491
+msgid "You can use this link to insert this image to any website or share it"
+msgstr ""
+
+#: lines.po:305
+msgid "You can use this HTML to insert this image to any website or share it"
+msgstr ""
+
+#: lines.po:308
+msgid "File uploaded"
+msgstr ""
+
+#: lines.po:323
+msgid "No file IP"
+msgstr ""
+
+#: lines.po:332
+msgid "File deleted!"
+msgstr ""
+
+#: lines.po:335
+msgid "You ip is banned for"
+msgstr ""
+
+#: lines.po:338
+msgid "You must wait %1 minutes before next download!"
+msgstr ""
+
+#: lines.po:341
+msgid "File not allowed to upload"
+msgstr ""
+
+#: lines.po:344
+msgid "No file code"
+msgstr ""
+
+#: lines.po:347
+msgid "You must wait %1 minutes before next upload!"
+msgstr ""
+
+#: lines.po:350
+msgid "You not select file or it wrong file code or file deletion code!"
+msgstr ""
+
+#: lines.po:353
+msgid "Mp3 file uploaded!"
+msgstr ""
+
+#: lines.po:368 lines.po:449
+msgid "You can now listen you mp3 in player bellow"
+msgstr ""
+
+#: lines.po:371
+msgid "You can insert this mp3 to any website by using this code:"
+msgstr ""
+
+#: lines.po:374
+msgid "Upload"
+msgstr ""
+
+#: lines.po:377
+msgid "TOS"
+msgstr ""
+
+#: lines.po:380
+msgid "FAQ"
+msgstr ""
+
+#: lines.po:386
+msgid "Upload you file"
+msgstr ""
+
+#: lines.po:389
+msgid "1. Press Browse and select file to upload and press Upload!"
+msgstr ""
+
+#: lines.po:392
+msgid "2. Get link and share it with friends"
+msgstr ""
+
+#: lines.po:395
+msgid "You can upload files with size up to"
+msgstr ""
+
+#: lines.po:398
+msgid "megs"
+msgstr ""
+
+#: lines.po:401
+msgid "Upload!"
+msgstr ""
+
+#: lines.po:404
+msgid "Allowed file types for upload:"
+msgstr ""
+
+#: lines.po:407
+msgid "Uploading! Please wait..."
+msgstr ""
+
+#: lines.po:410
+msgid "To get file enter code in box bellow:"
+msgstr ""
+
+#: lines.po:413
+msgid "Get File"
+msgstr ""
+
+#: lines.po:422 lines.po:461 lines.po:479
+msgid "Downloaded"
+msgstr ""
+
+#: lines.po:425 lines.po:443 lines.po:464 lines.po:482
+msgid "count"
+msgstr ""
+
+#: lines.po:428 lines.po:446 lines.po:467 lines.po:485
+msgid "Last downloaded"
+msgstr ""
+
+#: lines.po:431 lines.po:452 lines.po:494
+msgid "Download"
+msgstr ""
+
+#: lines.po:440
+msgid "Listened"
+msgstr ""
+
+#: lines.po:470
+msgid "Delete file"
+msgstr ""
+
+#: lines.po:488
+msgid "You can select 'Save image as...' from you browser to save this picture to you PC"
+msgstr ""
