@@ -2,7 +2,7 @@
 <br>
 <table cellspacing=0 cellpadding=5 border=0>
 <tr><td align="center" colspan="3">
-<small>Powered by <a href="http://phpofs.sf.net">Chia sẻ tài nguyên</a> &copy;&nbsp;2013&nbsp;"<a href="http://chamthi.net/">Chấm thi trực tuyến</a>"&nbsp;&nbsp;</small>
+<small>Powered by <a href="http://chamthi.net/">Chấm thi trực tuyến</a> &copy;&nbsp;2013&nbsp;</small>
 </td></tr>
 <tr><td align="right" valign="middle">
 <!--<a target="_blank" href="http://phpofs.sf.net"><img src="img/phpofs_banner_w.png" border="0" alt="Phpofs banner"></a>-->
