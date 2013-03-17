@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
 ===============================================================================
 =     Php Open FileSharing
@@ -18,7 +18,7 @@ $charset = "UTF-8";
 
 $theme = "default";
 
-$sitename="Chia s&#38;#7867; t�i nguy�n";
+$sitename="Chia sẻ tài nguyên";
 $siteurl="localhost/files";
 
 $adminpasswwdd = "admin";
@@ -33,7 +33,7 @@ $uptimelimit = 5;
 $downtimelimit = 5;
 $delfileafter = 7;
 
-$allowedfiletypes = "zip,rar,jpg,gif,jpeg,avi,png,mpg,mp4,mov,mp3,flv,txt,inp,pas";
+$allowedfiletypes = "zip,rar,jpg,gif,jpeg,avi,png,mpg,mp4,mov,mp3,flv,txt,inp,pas,pdf,doc,docx,ppt,pptx,xls,xlsx";
 
 $picfiletypes= "jpg,gif,jpeg,png";
 
