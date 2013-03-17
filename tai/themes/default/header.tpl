@@ -13,7 +13,23 @@
 
 <link href="/style.css" rel="stylesheet" type="text/css">
 
-
+<script type="text/javascript" src="jquery-min.js"> </script>
+<script type="text/javascript">
+var t=20;
+function dem(){
+	if (t>1) {
+		t--;
+		$('#chodoi').html("Waiting for "+t+" second(s)");
+		setTimeout(dem,1000);
+	} else {
+		$('#chodoi').hide();
+		$('#taive').show();
+	}
+}
+$(document).ready(function(){
+	dem();
+});
+</script>
 
 </head>
 

@@ -10,11 +10,13 @@
 <p>{t}Last downloaded{/t} : {$a_lastdown}</p>
 
 <br>
+<div id="chodoi">Please wait</div>
+<div id="taive" style="display:none;">
 <form action="download.php" method="get">
 <input type="hidden" name="fcode" value="{$fcode}">
 <input type="submit" value="{t}Download{/t}">
 </form> 
-
+</div>
 
 </center> 
 
