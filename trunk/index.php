@@ -1,56 +1,35 @@
-﻿<?php
-require_once "config.php";
-$link = mysql_connect($db_host, $db_user, $db_pass);
-mysql_select_db($db_name);
-mysql_query("SET NAMES utf8"); //connect in decode utf8
-//define("DEBUG",TRUE);
-?>
-<html><head><title>File sharing</title>
-<script type='text/javascript' src='jquery-min.js'></script>
-<script type='text/javascript'>
-var t=20;
-function dem(){
-	if (t>1) {
-		t--;
-		$('#chodoi').html("Waiting for "+t+" second(s)");
-		setTimeout(dem,1000);
-	} else {
-		$('#chodoi').hide();
-		$('#taive').html('<a href="'+url+'">Download</a>');
-	}
-}
-$(document).ready(function(){
-	dem();
-});
-</script>
-</head><body>
-<?php
-if (isset($_GET['f'])) {
-	$sql="select * from danhmuc where ma='".$_GET['f']."' limit 1";
-	$ret=mysql_query($sql) or die("Error in query");
-	if ($row=mysql_fetch_array($ret)) {
-		ghinhatki($row['id']);
-		echo "<script type='text/javascript'>var url='".$row['tep']."'</script>";
-		echo "<div id='filename'>".$row['ten']." - ".$row['tacgia']."</div>";
-		echo "<div id='chodoi'></div><div id='taive'>Download</div>";
-	} else {
-		echo "File not found.";
-	}
-} else {
-	echo "Welcome to our site.";
-}
-echo "</body></html>";
+<?PHP
+/*---------------------------------------#
+/     Simplicity oF Upload == Jamal      /
+/            Version 1.3.2               /
+#----------------------------------------#
+/         Download File Sample           /
+#----------------------------------------#
+#1- This script may be only used with the#
+#   ORIGINAL powered by footer in the    #
+#   upload form                          #
+#2- This Script may be only used for     #
+#   non-commerical porpuses!             #
+#3- you may use or modify this script as #
+#   you please but do NOT re-distribute  #
+#   it                                   #
+#----------------------------------------#
+#  Copy rights reserved to the author    #
+#  Saleh F. Jamal 2004-2005              #
+----------------------------------------*/
 
+//you need to know where your SFUConfig.php & functions.php files exist!
+require_once('SFUConfig.php');
+require_once('functions.php');
 
+//now we include the language file
+require_once("$language.lng");
 
-function redirect($location, $delaytime = 0) {
-    if ($delaytime>0) {    
-        header( "refresh: $delaytime; url='".str_replace("&amp;", "&", $location)."'" );
-    } else {
-        header("Location: ".str_replace("&amp;", "&", $location));
-    }    
-}
-function ghinhatki($tep) {
-	mysql_query("insert into nhatki (tep,ip,luc) value ($tep,'".$_SERVER['REMOTE_ADDR']."',NOW())");
-}
+html_header($txt['download']);
+
+echo '<p align="center" class="header">'.$txt['download'].'<br /><span style="font-size: 8pt;">'.$txt['to_download'].'</span></p>';
+
+Downloads(SFU_REALPATH, true, true);
+
+html_footer();
 ?>
