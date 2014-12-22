@@ -1,0 +1,7 @@
+AuthType Basic  
+AuthName "restricted area"  
+AuthUserFile /var/thnam/pass_protect/giaovien/.htpasswd  
+require valid-user
+<Files "upload.php">
+Require user nam
+</Files>

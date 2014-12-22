@@ -1,0 +1,64 @@
+<?PHP
+$txt['charset']='utf8';
+$txt['htmldir']='ltr';
+$txt['align']='left';
+$txt['title']='Tiêu đề';
+$txt['PHP_file_size']='PHP file size limit exceded!';
+$txt['partial_upload']='The file was not uploaded completly!';
+$txt['no_file']='No file was Uploaded!!';
+$txt['extension']='The extension';
+$txt['file_size']='The file size';
+$txt['read_file']='couldn\'t open file for reading!';
+$txt['write_file']='couldn\'t write file!';
+$txt['move_failiur']='Couldn\'t move the uploaded file!';
+$txt['try_again']='Please Try again!';
+$txt['chmod_fail']='The file mode wasn\'t changed, but file is uploaded succesfully!';
+$txt['succes']='File(s) were succesfully uploaded';
+$txt['error_log']='Error Log';
+$txt['submit']='Tải lên';
+$txt['download']='Danh mục tài liệu';
+$txt['limits']='Consider The following Limits';
+$txt['max_size']='Size Limit';
+$txt['allowed_ext']='Allowed Extensions';
+$txt['filename']='Tiêu đề tài liệu';
+$txt['fsize']='Kích thước';
+$txt['last_moded']='Ngày giờ tải lên';
+$txt['unwritable']='it seems that the directory you specified is not writable and/or you don\'t have the permission to write on it!';
+$txt['doesnot_exist']='the directory you specifed does NOT exist!';
+$txt['MB']='MB';
+$txt['KB']='KB';
+$txt['powered']='Powered By';
+$txt['lng_doesnot_exist']='The language file you requesetd does not exist!';
+$txt['lng_fall_default']='falling back to english language!'; //this variable should contain your language in case you wanted to translate it!
+$txt['not_allowed']='is not allowed!';
+$txt['exceded_limit']='exceded the limit!';
+$txt['overwrite']='Cho phép ghi đè tệp?';
+$txt['file_exists']='The same filename was found! please rename the file and try again';
+
+$txt['mail']['head']="This message was automated by Simplicity oF Upload to notify you of an upload attemp by a visitor with this IP address: ";
+$txt['mail']['succeded']="The following files were succesfully uploaded:\n";
+$txt['mail']['failed']="The following files were NOT uploaded:\n";
+$txt['mail']['subject']='[SFU]Upload attempt report';
+$txt['mail']['conc']="\n\n--------\nYou are notified because you have enabled this in your SFUConfig.php file.\nto disable notification, set the variable \$notify_admin to false in SFUConfig.php";
+
+$txt['log_failed']='Couldn\'t open file for logging!';
+$txt['log_write_failed']='Couldn\'t log data into file!';
+$txt['log']['failed']='FAILED:';
+$txt['log']['succeded']='SUCCEDED:';
+
+$txt['pass_intro']='in order to upload any file, you have to enter the correct password';
+$txt['password']='Password';
+$txt['pass_submit']='Submit';
+$txt['pass_uni']='Universal Password';
+$txt['pass_wrong']='Wrong password!';
+
+$txt['unknown_attr']='Unknown file attribute';
+$txt['unknown_notify']='Please notify the adminstrator about this error!';
+
+$txt['exec_file_exists']='Safely-converted-to-text file version of this file already exists!';
+$txt['new_ext_added']='<b>Note:</b> Files with the extensions html and/or txt are viewable because some of these files might have been created as a safe version of the original files and their safe version file types were not included in the allowed extensions list. this addition, however, is only performed here to view the files but not for upload!';
+$txt['to_download']='Để tải tập tin Nháy chuột phải lên nó rồi chọn "Save Target As"';
+
+$txt['pre_unwritable']='Destination directory is not writable!';
+$txt['error']='Error';
+?>
